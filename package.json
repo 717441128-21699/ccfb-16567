@@ -1,0 +1,21 @@
+{
+  "name": "beacon-light-audit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "航标灯灯质视频核查系统",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "bench": "node --import tsx scripts/bench.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.7",
+    "vitest": "^3.0.4"
+  }
+}
