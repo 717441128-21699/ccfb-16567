@@ -1,0 +1,24 @@
+{
+  "name": "aid-light-audit",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "夜间航标灯灯质视频核查系统（灯点跟踪 / 亮度曲线 / 灯质分类 / 航标表核对）",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "smoke": "tsx scripts/smoke.ts",
+    "eval": "tsx scripts/eval.ts",
+    "perf": "tsx scripts/perf.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.5",
+    "vitest": "^3.0.2"
+  }
+}
